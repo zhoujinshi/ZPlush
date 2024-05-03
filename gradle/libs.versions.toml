@@ -1,0 +1,10 @@
+[versions]
+agp = "8.3.1"
+httpclient = "4.5.14"
+
+[libraries]
+httpclient = { module = "org.apache.httpcomponents:httpclient", version.ref = "httpclient" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+
